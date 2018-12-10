@@ -26,3 +26,6 @@ Casper::factory()
   ->toFile('filename.html') 
   ->run(TRUE); //if set to TRUE will create infinite loop
 ```
+## License
+Copyright &copy; Timur Rzakulizadeh<br>
+Licensed under the MIT license.
