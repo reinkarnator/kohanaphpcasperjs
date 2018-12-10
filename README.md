@@ -8,7 +8,7 @@ Please read this documentation before usage:
 [https://github.com/alwex/php-casperjs]
 
 
-Added toFile() method to save data to file
+Added _toFile()_ method to save data to file
 
 Basic usage:
 
@@ -24,5 +24,5 @@ Casper::factory()
   ->fillFormSelectors('form', array('input[name="name"]' => 'user', 'input[name="password"]' => 'password' ), true)
   ->thenOpen('http://nexturl-or-ip')
   ->toFile('filename.html') 
-  ->run(TRUE); //if set to TRUE will create infinate loop
+  ->run(TRUE); //if set to TRUE will create infinite loop
 ```
